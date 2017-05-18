@@ -247,7 +247,7 @@ def plot_results():
 	plt.ylabel(u'平均吞吐率\n(Mbps)', fontsize='xx-large', fontproperties=chinese_font)
 	plt.ylim(0, full_bisection_bw)
 	plt.yticks(np.linspace(0, full_bisection_bw, 11))
-	plt.legend(loc='upper right', ncol=len(apps), fontsize='small')
+	plt.legend(loc='upper right', ncol=len(apps), fontsize='medium')
 	plt.grid(axis='y')
 	plt.tight_layout()
 	plt.savefig(args.out_dir + '/%s-average_throughput.png' % args.flows_num_per_host)
