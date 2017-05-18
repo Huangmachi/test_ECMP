@@ -59,4 +59,4 @@ do
 done
 
 # Plot results.
-# sudo python ./plot_results.py --k $k --duration $duration --dir $out_dir --fnum $flowsPerHost
+sudo python ./plot_results_Chinese.py --k $k --duration $duration --dir $out_dir --fnum $flowsPerHost
